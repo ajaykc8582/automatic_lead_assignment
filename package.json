@@ -1,0 +1,30 @@
+{
+  "name": "automatic_lead_assignment",
+  "version": "1.0.0",
+  "description": "This is automatic lead assignement project",
+  "homepage": "https://github.com/ajaykc8582/automatic_lead_assignment#readme",
+  "bugs": {
+    "url": "https://github.com/ajaykc8582/automatic_lead_assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaykc8582/automatic_lead_assignment.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.16.0",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
